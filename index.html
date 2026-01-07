@@ -697,6 +697,11 @@
             .card-wrapper {
                 width: 320px;
                 height: 440px;
+                transition: transform 0.5s ease;
+            }
+
+            .card-wrapper.opened {
+                transform: translateY(-80px);
             }
 
             .year-display {
